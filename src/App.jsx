@@ -1,8 +1,15 @@
+import ItemsListConteiner from "./components/ItemsListConteiner";
+import NavBar from "./components/navBar";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <NavBar />
+      <ItemsListConteiner
+        greeting={"Bienvenidos a la mejor tienda de Camisetas"}
+      />
+    </>
+  );
+};
 
-export default App
+export default App;
